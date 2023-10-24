@@ -1,8 +1,8 @@
-import { MCFunction, NBT, give } from "sandstone";
+import { MCFunction, MCFunctionInstance, NBT, give } from "sandstone";
 import { self } from "../../Tick";
 import { i } from "../../Utils/Functions";
 
-const Give = MCFunction("swords/horse_sword/give", () => {
+const Give: MCFunctionInstance = MCFunction("swords/horse_sword/give", () => {
   give(
     self,
     i("minecraft:diamond_sword", {
