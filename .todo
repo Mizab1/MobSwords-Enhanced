@@ -1,5 +1,5 @@
-☐ 1. Enderman sword: tp after you hit the player 
-☐ Increase the health of the player by 3 hearts
+✔ 1. Enderman sword: tp after you hit the player 
+✔ Increase the health of the player by 3 hearts
 
 ☐ 2. Creeper sword: attacks the player with explosions 
 ☐ explosion resistance
@@ -31,3 +31,7 @@
 
 ✔ 10. Slime Sword: Gives the enemy slowness effect when hit
 ✔ jump boost effect
+
+Required:
+  ☐ AESTD Lib
+  ☐ Minecraft 1.20.1
