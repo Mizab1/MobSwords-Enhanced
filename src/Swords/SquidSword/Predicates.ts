@@ -16,21 +16,3 @@ export const isHoldingThis: PredicateInstance = Predicate(
     },
   }
 );
-
-export const isHurtingWithThis: PredicateInstance = Predicate(
-  "is_hurting_with_squid_sword",
-  {
-    condition: "minecraft:damage_source_properties",
-    predicate: {
-      source_entity: {
-        type: "minecraft:player",
-        equipment: {
-          mainhand: {
-            items: ["minecraft:diamond_sword"],
-            nbt: "{CustomModelData:110010}",
-          },
-        },
-      },
-    },
-  }
-);
