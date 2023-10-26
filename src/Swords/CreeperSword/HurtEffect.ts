@@ -1,16 +1,14 @@
 import {
-  MCFunctionInstance,
   MCFunction,
-  execute,
+  MCFunctionInstance,
+  NBT,
   Selector,
-  effect,
+  execute,
   particle,
   rel,
   summon,
-  NBT,
 } from "sandstone";
 import { isHoldingThis } from "./Predicates";
-import { self } from "../../Tick";
 
 export const CreeperHurtEffect: MCFunctionInstance = MCFunction(
   "swords/creeper_sword/hurt_effect",
