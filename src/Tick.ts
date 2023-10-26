@@ -13,6 +13,8 @@ import { SlimeSword } from "./Swords/SlimeSword/SlimeSword";
 import { SlimeHurtEffect } from "./Swords/SlimeSword/HurtEffect";
 import { EndermanSword } from "./Swords/EndermanSword/EndermanSword";
 import { EndermanHurtEffect } from "./Swords/EndermanSword/HurtEffect";
+import { CreeperSword } from "./Swords/CreeperSword/CreeperSword";
+import { CreeperHurtEffect } from "./Swords/CreeperSword/HurtEffect";
 
 // Self Context
 export const self = Selector("@s");
@@ -26,6 +28,7 @@ const Tick: MCFunctionInstance = MCFunction(
     SquidSword();
     SlimeSword();
     EndermanSword();
+    CreeperSword();
 
     // Execute when a player hurts another player
     execute
@@ -40,6 +43,7 @@ const Tick: MCFunctionInstance = MCFunction(
         SquidHurtEffect();
         SlimeHurtEffect();
         EndermanHurtEffect();
+        CreeperHurtEffect();
       });
   },
   {
