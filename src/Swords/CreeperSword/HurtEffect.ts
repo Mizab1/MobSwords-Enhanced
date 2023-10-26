@@ -20,7 +20,7 @@ export const CreeperHurtEffect: MCFunctionInstance = MCFunction(
           CustomName: '{"text":"Explosion","italic":false}',
           Fuse: 0,
           ignited: NBT.byte(1),
-          ExplosionRadius: NBT.byte(1),
+          ExplosionRadius: NBT.byte(2),
         });
         particle("minecraft:explosion", rel(0, 1, 0), [0.5, 0.5, 0.5], 0.1, 25);
       });
